@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%; /* Adjust width as needed */
+  max-width: 800px; /* Set a max-width to prevent it from stretching too wide on larger screens */
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 0.8rem; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #04aa6d; /* Green */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem; /* Adjust font size as needed */
+  margin-left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+  margin-top: 1rem; /* Adjust margin as needed */
+  margin-bottom: 1rem; /* Adjust margin as needed */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  color: white;
+  border-radius: 5px; /* Adjust border radius as needed */
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: darkgreen;
+}

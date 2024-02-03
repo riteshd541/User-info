@@ -1,0 +1,22 @@
+.custom-search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.custom-search-bar input {
+  flex: 1; /* Use flex-grow to make the input field expand to fill available space */
+  margin-right: 5px; /* Adjust spacing between input field and button */
+}
+
+.custom-search-bar button {
+  padding: 5px 10px;
+  background-color: #007bff; /* Blue color, change as needed */
+  color: white;
+  border: black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.custom-search-bar button:hover {
+  background-color: #0056b3; /* Darker blue color on hover, change as needed */
+}
